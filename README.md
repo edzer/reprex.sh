@@ -42,3 +42,11 @@ v
 #  coord. ref. :
 ```
 (taken from [here](https://github.com/rspatial/terra/issues/1184))
+
+## Installation
+
+Put the `reprex.sh` shell script somewhere in your search path. Make sure it has executable permissions, noted by the `x` in
+```bash
+$ ls -la reprex.sh
+-rwxr-xr-x 1 edzer edzer 107 Jun 14 13:10 reprex.sh
+```
