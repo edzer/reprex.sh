@@ -41,11 +41,17 @@ v
 #  extent      : -1.027163, 2.027163, 84.91046, 85.08954  (xmin, xmax, ymin, ymax)
 #  coord. ref. :
 ```
-(taken from [here](https://github.com/rspatial/terra/issues/1184))
+(example taken from
+[here](https://github.com/rspatial/terra/issues/1184)). With this
+reprex, anyone can see which R commands were run, and what output
+it generated, and try to reproduce it, by:
+
+* re-running it in R by copy-and-paste, because the R output follows `#` and is interpreted as comment
+* comparing the output thus obtained with the output shown in the reprex
 
 ## Installation
 
-Put the `reprex.sh` shell script somewhere in your search path. Make sure it has executable permissions, noted by the `x` in
+Put the `reprex.sh` shell script somewhere in your search path. Make sure it has executable permissions, noted by the `x` in `-rwxr-xr-x`:
 ```bash
 $ ls -la reprex.sh
 -rwxr-xr-x 1 edzer edzer 107 Jun 14 13:10 reprex.sh
